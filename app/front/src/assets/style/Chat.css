@@ -1,0 +1,44 @@
+section {
+    background-color: #eee;
+}
+
+#chat2 .form-control {
+    border-color: transparent;
+}
+
+#chat2 .form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.card-body {
+    position: relative;
+    height: 400px;
+    overflow: scroll;
+}
+
+img {
+    width: 45px;
+    height: 100%;
+}
+
+.small.p-2.ms-3.mb-1.rounded-3 {
+    background-color: #f5f6f7;
+}
+
+.text-center.mx-3.mb-0 {
+    color: #a2aab7;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
